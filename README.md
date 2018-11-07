@@ -2,6 +2,8 @@
 `nycTaxi_rf.ipynb` contains my work for the [New York City Taxi Fare Prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction) Kaggle playground competition. I employ a **Random Forest Regressor** to predict the fare of a New York City yellow taxi using data that would be available at the start of the ride.
 Random Forests are a **supervised ensemble learning method** that bag together several decision trees to correct for their tendency to overfit.
 
+**Data**: You can find that data for this project from the cometition's [`Data` tab](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data). When running this code, I had `train.csv` and `test.csv` in a subdirectory within my working directory called `data`. If you use a different file structure or change the file names, make sure to update the `PATH` variable in the notebook and modify the `read_csv` calls accordingly.
+
 While the goal at the end is to predict our target variable (`fare_amount`), this notebook pays particular attention to a key stength of the Random Forest – **INTERPRETATION**. I go through the following general steps:
 
 1. **Loading** and **inspecting** the data, cleaning up non-sensical data as needed.
