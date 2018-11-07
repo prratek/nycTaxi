@@ -9,15 +9,13 @@ While the goal at the end is to predict our target variable (`fare_amount`), thi
 3. Building a quick and dirty **Random Forest baseline**.
 4. Single trees, **bagging**, and randomness.
 5. **Datetime feature engineering**.
-6. **Basic hyperparameter tuning**.
 
 To come:
-1. More hyperparameter tuning.
-2. More feature engineering - weather, traffic speeds by time, important locations, boroughs, public holidays
+1. More on hyperparameter tuning.
+2. More feature engineering (maybe) - weather, traffic speeds by time, important locations, boroughs, public holidays
 3. Interpretation – feature importance, confidence intervals
+4. Modular code with separate modules for different functionality that I define in the notebook.
 
 If you have any questions, suggestiong for how this notebook can be improved, or ideas for cool things I can do with Random Forests, **feel free to reach out!**
 
 **Credits:** This work is a result of working through the fast.ai Machine Learning 1 course. I have occasionally borrowed code snippets or ideas from the lessons on Random Forests, the code for which can be found at this [Github repo](https://github.com/fastai/fastai/tree/master/courses/ml1).
-
-**NOTE:** The fast.ai ML1 course isn't officially released yet but you can get early access to the videos [here](http://forums.fast.ai/t/another-treat-early-access-to-intro-to-machine-learning-videos/6826)
